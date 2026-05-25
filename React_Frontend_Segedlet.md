@@ -33,6 +33,21 @@ bun install
 # Fejlesztői szerver indítása
 bun run dev
 ```
+ha reactot kell simán telepíteni akkor bunnal:
+bun create vite projektnev --template react
+cd projektnev
+bun install
+bun run dev
+
+npm-el: 
+npm create vite@latest projektnev -- --template react
+cd projektnev
+npm install
+npm run dev
+
+
+csomagok telepítése: 
+bun add bootstrap bootstrap-icons axios react-router-dom
 
 Böngészőben: `http://localhost:5173/`
 
@@ -453,3 +468,58 @@ rd /s /q node_modules
 - [ ] Alert törlés után
 - [ ] Hiba esetén `console.log(err)`
 - [ ] `node_modules` törölve leadás előtt
+
+gites dolgok!!!!
+
+# Git Parancsok Segédlet – Szakmai Vizsga
+
+---
+
+## Alap munkafolyamat
+
+```bash
+git init                        # új repo inicializálása
+git add .                       # összes fájl hozzáadása
+git commit -m "commit üzenet"   # mentés
+git push                        # feltöltés GitHubra
+```
+
+---
+
+## Repo klónozása
+
+```bash
+git clone https://github.com/user/repo
+git clone https://github.com/user/repo mappaname  # más névvel
+```
+
+---
+
+## Állapot ellenőrzése
+
+```bash
+git status      # mi változott
+git log         # korábbi commitok
+```
+
+---
+
+## Távoli repo beállítása
+
+```bash
+git remote add origin https://github.com/user/repo.git
+git push -u origin main   # első push
+git push                  # utána már csak ennyi
+```
+
+---
+
+## Tipikus hibák
+
+| Hiba | Megoldás |
+|------|----------|
+| `permission denied` | Zárd be Visual Studiót |
+| `embedded git repository` | `Remove-Item -Recurse -Force almappa\.git` |
+| `fatal: not a git repository` | `git init` futtatása |
+| nano/vim megnyílt | `Ctrl+X` a kilépéshez |
+| `rejected – fetch first` | `git pull` majd `git push` |
