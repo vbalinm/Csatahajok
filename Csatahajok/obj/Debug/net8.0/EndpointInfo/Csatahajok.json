@@ -1,0 +1,205 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Csatahajok",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Csata/Resztvevok/{name}": {
+      "get": {
+        "tags": [
+          "Csata"
+        ],
+        "parameters": [
+          {
+            "name": "name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Hajo/All": {
+      "get": {
+        "tags": [
+          "Hajo"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Hajo/ByName/{name}": {
+      "get": {
+        "tags": [
+          "Hajo"
+        ],
+        "parameters": [
+          {
+            "name": "name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Kimenet/UjKimenet": {
+      "post": {
+        "tags": [
+          "Kimenet"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Kimenet"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Kimenet"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Kimenet"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Kimenet/KimenetTorles/{csata}/{hajonev}": {
+      "delete": {
+        "tags": [
+          "Kimenet"
+        ],
+        "parameters": [
+          {
+            "name": "csata",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "hajonev",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Csatum": {
+        "type": "object",
+        "properties": {
+          "nev": {
+            "type": "string",
+            "nullable": true
+          },
+          "kezdes": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "befejezes": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Hajo": {
+        "type": "object",
+        "properties": {
+          "nev": {
+            "type": "string",
+            "nullable": true
+          },
+          "osztaly": {
+            "type": "string",
+            "nullable": true
+          },
+          "felavatva": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "agyukSzama": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kaliber": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "vizkiszoritas": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Kimenet": {
+        "type": "object",
+        "properties": {
+          "hajo": {
+            "type": "string",
+            "nullable": true
+          },
+          "csata": {
+            "type": "string",
+            "nullable": true
+          },
+          "eredmeny": {
+            "type": "string",
+            "nullable": true
+          },
+          "csataNavigation": {
+            "$ref": "#/components/schemas/Csatum"
+          },
+          "hajoNavigation": {
+            "$ref": "#/components/schemas/Hajo"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+@Csatahajok_HostAddress = http://localhost:5014
+
+GET {{Csatahajok_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

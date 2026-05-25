@@ -1,0 +1,3 @@
+echo ".vs/" > .gitignore
+git add .
+git commit -m "elso commit"

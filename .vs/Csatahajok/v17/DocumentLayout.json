@@ -1,0 +1,162 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\B\u00E1lint\\Desktop\\Csatahajok\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD9F880-40BA-466C-BE90-AF65570A6FA4}|Csatahajok\\Csatahajok.csproj|c:\\users\\b\u00E1lint\\desktop\\csatahajok\\csatahajok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD9F880-40BA-466C-BE90-AF65570A6FA4}|Csatahajok\\Csatahajok.csproj|solutionrelative:csatahajok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD9F880-40BA-466C-BE90-AF65570A6FA4}|Csatahajok\\Csatahajok.csproj|c:\\users\\b\u00E1lint\\desktop\\csatahajok\\csatahajok\\controllers\\csatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD9F880-40BA-466C-BE90-AF65570A6FA4}|Csatahajok\\Csatahajok.csproj|solutionrelative:csatahajok\\controllers\\csatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD9F880-40BA-466C-BE90-AF65570A6FA4}|Csatahajok\\Csatahajok.csproj|c:\\users\\b\u00E1lint\\desktop\\csatahajok\\csatahajok\\controllers\\kimenetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD9F880-40BA-466C-BE90-AF65570A6FA4}|Csatahajok\\Csatahajok.csproj|solutionrelative:csatahajok\\controllers\\kimenetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD9F880-40BA-466C-BE90-AF65570A6FA4}|Csatahajok\\Csatahajok.csproj|c:\\users\\b\u00E1lint\\desktop\\csatahajok\\csatahajok\\controllers\\hajocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD9F880-40BA-466C-BE90-AF65570A6FA4}|Csatahajok\\Csatahajok.csproj|solutionrelative:csatahajok\\controllers\\hajocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD9F880-40BA-466C-BE90-AF65570A6FA4}|Csatahajok\\Csatahajok.csproj|c:\\users\\b\u00E1lint\\desktop\\csatahajok\\csatahajok\\models\\kimenet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD9F880-40BA-466C-BE90-AF65570A6FA4}|Csatahajok\\Csatahajok.csproj|solutionrelative:csatahajok\\models\\kimenet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD9F880-40BA-466C-BE90-AF65570A6FA4}|Csatahajok\\Csatahajok.csproj|c:\\users\\b\u00E1lint\\desktop\\csatahajok\\csatahajok\\models\\hajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD9F880-40BA-466C-BE90-AF65570A6FA4}|Csatahajok\\Csatahajok.csproj|solutionrelative:csatahajok\\models\\hajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD9F880-40BA-466C-BE90-AF65570A6FA4}|Csatahajok\\Csatahajok.csproj|c:\\users\\b\u00E1lint\\desktop\\csatahajok\\csatahajok\\models\\csatum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD9F880-40BA-466C-BE90-AF65570A6FA4}|Csatahajok\\Csatahajok.csproj|solutionrelative:csatahajok\\models\\csatum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD9F880-40BA-466C-BE90-AF65570A6FA4}|Csatahajok\\Csatahajok.csproj|c:\\users\\b\u00E1lint\\desktop\\csatahajok\\csatahajok\\models\\csatahajokcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD9F880-40BA-466C-BE90-AF65570A6FA4}|Csatahajok\\Csatahajok.csproj|solutionrelative:csatahajok\\models\\csatahajokcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{28836128-fc2c-11d2-a433-00c04f72d18a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KimenetController.cs",
+              "DocumentMoniker": "C:\\Users\\B\u00E1lint\\Desktop\\Csatahajok\\Csatahajok\\Controllers\\KimenetController.cs",
+              "RelativeDocumentMoniker": "Csatahajok\\Controllers\\KimenetController.cs",
+              "ToolTip": "C:\\Users\\B\u00E1lint\\Desktop\\Csatahajok\\Csatahajok\\Controllers\\KimenetController.cs",
+              "RelativeToolTip": "Csatahajok\\Controllers\\KimenetController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwC0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T10:56:30.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CsataController.cs",
+              "DocumentMoniker": "C:\\Users\\B\u00E1lint\\Desktop\\Csatahajok\\Csatahajok\\Controllers\\CsataController.cs",
+              "RelativeDocumentMoniker": "Csatahajok\\Controllers\\CsataController.cs",
+              "ToolTip": "C:\\Users\\B\u00E1lint\\Desktop\\Csatahajok\\Csatahajok\\Controllers\\CsataController.cs",
+              "RelativeToolTip": "Csatahajok\\Controllers\\CsataController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T10:21:44.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HajoController.cs",
+              "DocumentMoniker": "C:\\Users\\B\u00E1lint\\Desktop\\Csatahajok\\Csatahajok\\Controllers\\HajoController.cs",
+              "RelativeDocumentMoniker": "Csatahajok\\Controllers\\HajoController.cs",
+              "ToolTip": "C:\\Users\\B\u00E1lint\\Desktop\\Csatahajok\\Csatahajok\\Controllers\\HajoController.cs",
+              "RelativeToolTip": "Csatahajok\\Controllers\\HajoController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAiwCYAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T10:03:09.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Kimenet.cs",
+              "DocumentMoniker": "C:\\Users\\B\u00E1lint\\Desktop\\Csatahajok\\Csatahajok\\Models\\Kimenet.cs",
+              "RelativeDocumentMoniker": "Csatahajok\\Models\\Kimenet.cs",
+              "ToolTip": "C:\\Users\\B\u00E1lint\\Desktop\\Csatahajok\\Csatahajok\\Models\\Kimenet.cs",
+              "RelativeToolTip": "Csatahajok\\Models\\Kimenet.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T10:01:40.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Hajo.cs",
+              "DocumentMoniker": "C:\\Users\\B\u00E1lint\\Desktop\\Csatahajok\\Csatahajok\\Models\\Hajo.cs",
+              "RelativeDocumentMoniker": "Csatahajok\\Models\\Hajo.cs",
+              "ToolTip": "C:\\Users\\B\u00E1lint\\Desktop\\Csatahajok\\Csatahajok\\Models\\Hajo.cs",
+              "RelativeToolTip": "Csatahajok\\Models\\Hajo.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T10:01:35.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Csatum.cs",
+              "DocumentMoniker": "C:\\Users\\B\u00E1lint\\Desktop\\Csatahajok\\Csatahajok\\Models\\Csatum.cs",
+              "RelativeDocumentMoniker": "Csatahajok\\Models\\Csatum.cs",
+              "ToolTip": "C:\\Users\\B\u00E1lint\\Desktop\\Csatahajok\\Csatahajok\\Models\\Csatum.cs",
+              "RelativeToolTip": "Csatahajok\\Models\\Csatum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T10:01:22.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CsatahajokContext.cs",
+              "DocumentMoniker": "C:\\Users\\B\u00E1lint\\Desktop\\Csatahajok\\Csatahajok\\Models\\CsatahajokContext.cs",
+              "RelativeDocumentMoniker": "Csatahajok\\Models\\CsatahajokContext.cs",
+              "ToolTip": "C:\\Users\\B\u00E1lint\\Desktop\\Csatahajok\\Csatahajok\\Models\\CsatahajokContext.cs",
+              "RelativeToolTip": "Csatahajok\\Models\\CsatahajokContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T10:01:17.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\B\u00E1lint\\Desktop\\Csatahajok\\Csatahajok\\Program.cs",
+              "RelativeDocumentMoniker": "Csatahajok\\Program.cs",
+              "ToolTip": "C:\\Users\\B\u00E1lint\\Desktop\\Csatahajok\\Csatahajok\\Program.cs",
+              "RelativeToolTip": "Csatahajok\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T07:36:16.495Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
