@@ -523,3 +523,50 @@ git push                  # utána már csak ennyi
 | `fatal: not a git repository` | `git init` futtatása |
 | nano/vim megnyílt | `Ctrl+X` a kilépéshez |
 | `rejected – fetch first` | `git pull` majd `git push` |
+
+
+pwd
+git --version
+cd 
+cd ../Git_alapok -->könyvtár váltás
+mkdir
+rmdir --> mappa törlése
+rm -rf mappa/.git/ --> klónozott mappa törlése
+dir vagy ls
+
+git config --global --list --> beállítások listázása
+git config --global user.name "Felhasználó neve" --> milyen néven jelenjenek meg a commit-ok
+git config --global user.email "nev@gmail.com" --> felhasználó email beállítása
+
+
+git init --> üres local repo létrehozása
+git init repository_neve --> új repo létre hozása kitüntett ággal (master)
+git remote add origin https://github.com/Fzoltan38/GitTest.git --> csatlakozás local repo és távoli repo összekapcsolása | az origin egy alias errőla gépről így nevezem a távoli repot.
+
+git push -u origin master --> a -u ahhoz kell hogy az origin legyen az alpértelmezett branch a push-olásra
+git pull origin master --allow-unrelated-histories --> Távoli repbóból való lehúzás local repoba adott ágról
+git status --> változtatások megjelenítése
+git add red.txt vagy git add . --> változtatások hozzáadása staging area-hoz
+git commit -m "szoveg" --> változtatás komitálása
+git commit -am "szoveg" --> git add és commit egyben
+
+git checkout -- red.txt --> változtatás teljes visszavonása 
+git reset index.html --> leveszi a stageing area-ról.
+git add --patch --> lemaradt változtatások hozzáadása
+
+
+git diff HEAD vagy git diff red.txt --> összehasonlítja az előző commit-olt változattal, ha még nincs  staging area-án
+git diff --staged --> összehasonlítja az előző commit-olt változattal, ha már staging area-án van
+git diff --cached red.txt --> összehasonlítja az előző commit-olt változattal, ha már staging area-án van
+
+git branch --> aktuális ág ellenőrzése
+git branch newbranchname --> új ág létrehozása
+git checkout newbranchname --> váltás új ágra
+git merge newbranchname --> összefésüli a két ágat(mindig odaálljunk ahová másolni akarunk)
+git branch -d newbranchname --> adott ág törlése
+
+git log --oneline --> commit-ok listázása
+gitk --> commit-ok megzekintése
+git checkout commit kód --> komit álapot kikérése
+git reset HEAD index.html --> visszatérés alap álapotba(leveszi staging area-ról)
+git checkout -- . --> majd törli
